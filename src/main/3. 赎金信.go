@@ -4,7 +4,7 @@ import "fmt"
 
 //字符统计
 func canConstruct(ransomNote, magazine string) bool {
-	if len(ransomNote) != len(magazine) {
+	if len(ransomNote) > len(magazine) {
 		return false
 	}
 	//ascii码
@@ -20,7 +20,6 @@ func canConstruct(ransomNote, magazine string) bool {
 	}
 	return true
 }
-
 func main() {
 	fmt.Print(canConstruct("aaa", "aab"))
 }
