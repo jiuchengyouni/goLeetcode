@@ -1,5 +1,6 @@
 package main
 
+//876
 //快慢指针
 
 type ListNode2 struct {

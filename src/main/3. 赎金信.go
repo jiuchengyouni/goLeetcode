@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+//383
 //字符统计
 func canConstruct(ransomNote, magazine string) bool {
 	if len(ransomNote) > len(magazine) {

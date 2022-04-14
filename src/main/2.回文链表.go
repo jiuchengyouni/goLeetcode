@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+//234
 //将值复制到数组中后用双指针法
 
 type ListNode struct {
