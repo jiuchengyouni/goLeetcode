@@ -2,6 +2,7 @@ package main
 
 import "sort"
 
+//278
 func firstBadVersion(n int) int {
 	i := 1
 	//队首
