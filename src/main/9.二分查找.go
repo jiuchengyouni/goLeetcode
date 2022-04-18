@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+//704
 func search(nums []int, target int) int {
 	first := 0
 	last := len(nums) - 1
