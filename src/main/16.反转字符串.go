@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+//344
 func reverseString(s []byte) {
 	first, last := 0, len(s)-1
 	for first < last {
