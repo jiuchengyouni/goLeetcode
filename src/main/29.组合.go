@@ -26,5 +26,5 @@ func combine(n int, k int) (ans [][]int) {
 	return
 }
 func main() {
-	fmt.Println(combine(1, 1))
+	fmt.Println(combine(2, 1))
 }

@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+//70
 //动态规划
 func climbStairs(n int) int {
 	q, temp1, temp2 := 1, 0, 0
