@@ -7,7 +7,7 @@ func change(amount int, coins []int) int {
 	dp[0] = 1
 	for i := 0; i < len(coins); i++ {
 		for j := i; j < amount; j++ {
-			dp[i] += dp[i-coins[j]]
+			dp[j] += dp[j-coins[i]]
 		}
 	}
 	return dp[amount]
